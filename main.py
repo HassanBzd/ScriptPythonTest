@@ -1,7 +1,7 @@
-import subprocess
+import os
 print("HelloWorld")
 
 
 
 command = "launch -a snapchat"
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+os.system(command)
