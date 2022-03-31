@@ -4,7 +4,7 @@ sleep = "sleep 10"
 
 
 
-command = "launch -a snapchat"
+command = "launch -a screen coordinate"
 os.system(command)
 os.system(sleep)
 command = "input tap 100 5"
