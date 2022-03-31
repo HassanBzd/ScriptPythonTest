@@ -4,5 +4,6 @@ print("HelloWorld")
 
 
 command = "launch -a snapchat"
-command = "input text toto"
+os.system(command)
+command = "input tap 100 100"
 os.system(command)
