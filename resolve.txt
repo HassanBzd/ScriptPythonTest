@@ -1,2 +1,1 @@
-curl -LO https://packages.termux.org/apt/termux-main/pool/main/t/termux-keyring/termux-keyring_2.4_all.debapt install ./termux-keyring_2.4_all.deb
-apt update && apt dist-upgrade -yq
+curl -fsSL https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/gushmazuko-gpg.pubkey | gpg --dearmor | tee $PREFIX/etc/apt/trusted.gpg.d/gushmazuko-repo.gpg
