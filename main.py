@@ -14,6 +14,7 @@ y = 0
 
 for x in range(100):
 	for y in range(100):
+		command = "input tap"
 		command = command+" "+str(x)+" "+str(y)
 		os.system(command)
 
