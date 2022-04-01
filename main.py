@@ -14,7 +14,7 @@ y = 280
 command = command+" "+str(x)+" "+str(y)
 os.system(command)
 
-name = vevoisback
-os.system(sleep)
+name = "vevoisback"
+os.system(sleep-)
 command = "input text "+name
 os.system(command)
