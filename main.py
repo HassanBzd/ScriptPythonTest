@@ -1,22 +1,20 @@
 import os
-print("HelloWorld")
-sleep = "sleep 10"
+
+sleep = "sleep 5"
 
 
 
-command = "launch -a screen coordinate"
+command = "launch -a snapchat &"
 os.system(command)
 os.system(sleep)
-
 command = "input tap"
-x = 0
-y = 0
+x = 660
+y = 280
 
-for x in range(1400,1500):
-	for y in range(1300;1500):
-		command = "input tap"
-		command = command+" "+str(x)+" "+str(y)
-		print(command)
-		os.system(command)
+command = command+" "+str(x)+" "+str(y)
+os.system(command)
 
-print("Finish")
+name = vevoisback
+os.system(sleep)
+command = "input text "+name
+os.system(command)
